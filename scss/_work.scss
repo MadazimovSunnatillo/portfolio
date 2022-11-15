@@ -1,0 +1,44 @@
+section#works {
+
+    .work__info {
+        padding-top: 15px;
+        gap: 18px;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #E0E0E0;
+
+        .text {
+            .work__title {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 44px;
+                color: #21243D;
+            }
+
+            .word__link {
+                margin-right: 26px;
+                padding: 3px 6px;
+                background: #142850;
+                border-radius: 16px;
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 60px;
+                color: #FFFFFF;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 29px;
+                color: #8695A4;
+            }
+
+            .work__description {
+                font-weight: 400;
+                max-width: 507px;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+            }
+        }
+    }
+}

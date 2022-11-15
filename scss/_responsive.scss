@@ -1,0 +1,196 @@
+@media (max-width:1000px) {
+    .container {
+        max-width: 770px;
+    }
+
+    section#works {
+        padding-top: 1rem;
+
+        .work__title,
+        .flex {
+            justify-content: space-around;
+
+            padding: 10px 0;
+        }
+
+        .work__info {
+            flex-direction: column;
+
+            .work__title {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                color: #21243D;
+            }
+
+        }
+
+        .block {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:839px) {
+    .container {
+        max-width: 600px;
+    }
+
+    section#cards {
+
+        .card {
+            width: 350px;
+
+            .card__title {
+                width: 320px;
+            }
+        }
+
+        .card__link {
+            display: none;
+        }
+
+        .flex {
+            flex-direction: column;
+        }
+    }
+
+    section#showcase {
+        .flex {
+            flex-direction: column-reverse;
+
+            .hero__title {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: center;
+            }
+
+            .hero__description {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+            }
+
+            .hero__button {
+                margin-left: 140px;
+            }
+
+            img {
+                padding-bottom: 34px;
+            }
+        }
+    }
+
+    header {
+        nav {
+            display: none;
+        }
+
+        .sider {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 610px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 510px) {
+    .container {
+        max-width: 400px;
+    }
+
+    section#showcase {
+        .hero__button {
+            margin-right: 7rem;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 300px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 300px) {
+    .container {
+        max-width: 200px;
+    }
+
+    section#showcase {
+        .hero__button {
+            width: max-content;
+        }
+
+        .flex {
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .hero__info {
+            .hero__title {
+                font-size: 20px;
+                max-width: 200px;
+                margin: 0 auto;
+            }
+
+            .hero__description {
+                max-width: 220px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    section#cards {
+        .card__title {
+            font-size: 10px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .card__date {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .card__description {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    section#works {
+        .work__title {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .work__description {
+            text-align: center;
+        }
+    }
+
+
+}
